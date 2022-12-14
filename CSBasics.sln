@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T2Ternarny", "L3T2Ternarn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T3Password", "L3T3Password\L3T3Password.csproj", "{72F304C3-B8B0-43B4-9B88-3F684EF94B18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T4Leapyear", "L3T4Leapyear\L3T4Leapyear.csproj", "{CABAF252-690C-4F43-AFF2-AC82F6162FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{72F304C3-B8B0-43B4-9B88-3F684EF94B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72F304C3-B8B0-43B4-9B88-3F684EF94B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72F304C3-B8B0-43B4-9B88-3F684EF94B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABAF252-690C-4F43-AFF2-AC82F6162FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABAF252-690C-4F43-AFF2-AC82F6162FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABAF252-690C-4F43-AFF2-AC82F6162FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABAF252-690C-4F43-AFF2-AC82F6162FEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
