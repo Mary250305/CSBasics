@@ -8,12 +8,12 @@
             int password1 = password.Length;
 
             Console.WriteLine("Введите пароль");
-            string parol = Console.ReadLine();
-            if (password1 > parol.Length && password!= parol)
+            string pass = Console.ReadLine();
+            if (password1 > pass.Length && password!= pass)
             {
                 Console.WriteLine("Пароль неверный, возможно строка слишком короткая");
             }
-            else if (password1 == parol.Length && password == parol)
+            else if (password1 == pass.Length && password == pass)
             {
                 Console.WriteLine("Пароль верный");
             }
