@@ -5,7 +5,7 @@ namespace L3T1
     {
         static void Main()
         {
-            Console.WriteLine("Введите число");
+            Console.WriteLine("Введите число ");
             int number = Convert.ToInt32(Console.ReadLine());
             if (number > 0)
             {
