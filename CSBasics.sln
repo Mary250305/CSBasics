@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2T1Expressions", "L2T1Expr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L3T1Chains", "L3T1Chains\L3T1Chains.csproj", "{42443CFD-E938-43F2-9A44-7BEB547096B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T2Ternarny", "L3T2Ternarny\L3T2Ternarny.csproj", "{054FE9E6-6EBF-4B7B-B829-A1792C3E4F35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L3T2Ternarny", "L3T2Ternarny\L3T2Ternarny.csproj", "{054FE9E6-6EBF-4B7B-B829-A1792C3E4F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T3Password", "L3T3Password\L3T3Password.csproj", "{72F304C3-B8B0-43B4-9B88-3F684EF94B18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L3T3Password", "L3T3Password\L3T3Password.csproj", "{72F304C3-B8B0-43B4-9B88-3F684EF94B18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T4Leapyear", "L3T4Leapyear\L3T4Leapyear.csproj", "{CABAF252-690C-4F43-AFF2-AC82F6162FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L3T4Leapyear", "L3T4Leapyear\L3T4Leapyear.csproj", "{CABAF252-690C-4F43-AFF2-AC82F6162FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T5TriangleArea", "L3T5TriangleArea\L3T5TriangleArea.csproj", "{5452E00A-6E82-4C52-92AF-DF8E2451B060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L3T5TriangleArea", "L3T5TriangleArea\L3T5TriangleArea.csproj", "{5452E00A-6E82-4C52-92AF-DF8E2451B060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T6Age", "L3T6Age\L3T6Age.csproj", "{519240A8-3594-4793-87E8-90032ACAA223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{5452E00A-6E82-4C52-92AF-DF8E2451B060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5452E00A-6E82-4C52-92AF-DF8E2451B060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5452E00A-6E82-4C52-92AF-DF8E2451B060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519240A8-3594-4793-87E8-90032ACAA223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519240A8-3594-4793-87E8-90032ACAA223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519240A8-3594-4793-87E8-90032ACAA223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519240A8-3594-4793-87E8-90032ACAA223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
