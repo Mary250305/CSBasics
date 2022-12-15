@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T3Password", "L3T3Passwor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T4Leapyear", "L3T4Leapyear\L3T4Leapyear.csproj", "{CABAF252-690C-4F43-AFF2-AC82F6162FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T5TriangleArea", "L3T5TriangleArea\L3T5TriangleArea.csproj", "{5452E00A-6E82-4C52-92AF-DF8E2451B060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{CABAF252-690C-4F43-AFF2-AC82F6162FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CABAF252-690C-4F43-AFF2-AC82F6162FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CABAF252-690C-4F43-AFF2-AC82F6162FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5452E00A-6E82-4C52-92AF-DF8E2451B060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5452E00A-6E82-4C52-92AF-DF8E2451B060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5452E00A-6E82-4C52-92AF-DF8E2451B060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5452E00A-6E82-4C52-92AF-DF8E2451B060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
