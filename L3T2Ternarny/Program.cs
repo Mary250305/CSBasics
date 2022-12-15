@@ -4,12 +4,14 @@
     {
         static void Main()
         {
-            int a = 23;
-            int b = 34;
+            Console.WriteLine("Введите число а");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите число b");
+            int b = Convert.ToInt32(Console.ReadLine());
             int max = (a > b) ? a : b;
             int min = (a < b) ? a : b;
-            Console.WriteLine(max);
-            Console.WriteLine(min);
+            Console.WriteLine("Максимальное " + max);
+            Console.WriteLine("Минимальное " + min);
         }
     }
 }
