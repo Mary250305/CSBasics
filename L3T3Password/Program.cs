@@ -4,9 +4,10 @@
     {
         static void Main()
         {
-            string password = "Masha";
+            string password = "masha";
             int pw = password.Length;
-            string parol = "Mariya";
+            Console.WriteLine("Введите пароль");
+            string parol = Console.ReadLine();
             if (pw> parol.Length)
             {
                 Console.WriteLine("Пароль неверный строка слишком короткая");
