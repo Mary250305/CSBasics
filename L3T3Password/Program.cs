@@ -5,20 +5,21 @@
         static void Main()
         {
             string password = "masha";
-            int pw = password.Length;
+            int password1 = password.Length;
+
             Console.WriteLine("Введите пароль");
             string parol = Console.ReadLine();
-            if (pw> parol.Length)
+            if (password1 > parol.Length && password!= parol)
             {
-                Console.WriteLine("Пароль неверный строка слишком короткая");
+                Console.WriteLine("Пароль неверный, возможно строка слишком короткая");
             }
-            else if (pw == parol.Length)
+            else if (password1 == parol.Length && password == parol)
             {
                 Console.WriteLine("Пароль верный");
             }
             else
             {
-                Console.WriteLine("Пароль неверный строка слишком длинная");
+                Console.WriteLine("Пароль неверный, возможно строка слишком длинная");
             }
         }
     }
