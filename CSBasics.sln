@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L3T5TriangleArea", "L3T5Tri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T6Age", "L3T6Age\L3T6Age.csproj", "{519240A8-3594-4793-87E8-90032ACAA223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3T7Equation", "L3T7Equation\L3T7Equation.csproj", "{381B91D6-30A2-4D53-97A7-7DD0B4B5C9D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{519240A8-3594-4793-87E8-90032ACAA223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{519240A8-3594-4793-87E8-90032ACAA223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{519240A8-3594-4793-87E8-90032ACAA223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381B91D6-30A2-4D53-97A7-7DD0B4B5C9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B91D6-30A2-4D53-97A7-7DD0B4B5C9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B91D6-30A2-4D53-97A7-7DD0B4B5C9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B91D6-30A2-4D53-97A7-7DD0B4B5C9D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
