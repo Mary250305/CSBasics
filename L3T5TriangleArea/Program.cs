@@ -1,10 +1,10 @@
-﻿namespace L3T5
+﻿namespace L3T5TriangleArea
 {
-    class L3T5
+    class Program
     {
         static void Main()
         {
-            Console.WriteLine("Введите координаты");
+            Console.WriteLine("Введите координаты точек");
             int x1 = Convert.ToInt32(Console.ReadLine());
             int y1 = Convert.ToInt32(Console.ReadLine());
             int x2 = Convert.ToInt32(Console.ReadLine());
@@ -31,9 +31,9 @@
             }            
             else
             {
-                int p = (AB + BC + CA) / 2;
-                int S = Math.Sqrt(p*(p - AB) * (p - BC) * (p - CA));
-                Console.WriteLine("Площадь треугольника = " + S);
+                int halfMeter = (AB + BC + CA) / 2;
+                double square = Math.Sqrt(halfMeter * (halfMeter - AB) * (halfMeter - BC) * (halfMeter - CA));
+                Console.WriteLine("Площадь треугольника = " + Math.Round(square));
             }
         }
     }
