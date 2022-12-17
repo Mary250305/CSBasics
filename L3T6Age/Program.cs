@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Введите свой возраст ");
             int age = Convert.ToInt32(Console.ReadLine());
+
             if (age < 1)
             {
                 Console.WriteLine("Вы слишком малы");
@@ -14,6 +15,8 @@
             {
                 Console.WriteLine("Вы слишком стары");
             }
+
+            while (1<age<112);
             if (age % 10 == 1)
             {
                 Console.WriteLine("Вам " + age + " год");

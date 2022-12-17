@@ -1,12 +1,12 @@
-﻿
-namespace L3T1
+﻿namespace L3T1Chains
 {
-    class L3T1
+    class Program
     {
         static void Main()
         {
-            Console.WriteLine("Введите число ");
+            Console.Write("Введите число ");
             int number = Convert.ToInt32(Console.ReadLine());
+
             if (number > 0)
             {
                 Console.WriteLine("Положительное число");

@@ -2,9 +2,6 @@
 {
     class L3T5
     {
-        private static int p;
-        private static double S;
-
         static void Main()
         {
             Console.WriteLine("Введите координаты");
@@ -34,8 +31,8 @@
             }            
             else
             {
-                p = (AB + BC + CA) / 2;
-                S = Math.Sqrt(p*(p - AB) * (p - BC) * (p - CA));
+                int p = (AB + BC + CA) / 2;
+                int S = Math.Sqrt(p*(p - AB) * (p - BC) * (p - CA));
                 Console.WriteLine("Площадь треугольника = " + S);
             }
         }
