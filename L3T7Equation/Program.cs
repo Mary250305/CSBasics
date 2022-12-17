@@ -16,27 +16,30 @@
             Console.Write("Введите с: ");
             int c = Convert.ToInt32(Console.ReadLine());
 
-            int D = (int) Math.Pow(b, 2) - 4 * a * c;
+            int discriminant = (int) Math.Pow(b, 2) - 4 * a * c;
 
             if (a > 0 || b > 0 || c > 0)
             {
-                if (D>0)
+                if (discriminant>0)
                 {
-                    double x1 = (-b + Math.Sqrt(D)) / (2 * a);
-                    double x2 = (-b - Math.Sqrt(D)) / (2 * a);
-                    Console.WriteLine(Math.Round(x1));
-                    Console.WriteLine(Math.Round(x2));
+                    double root1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
+                    double root2 = (-b - Math.Sqrt(discriminant)) / (2 * a);
+                    Console.WriteLine(Math.Round(root1));
+                    Console.WriteLine(Math.Round(root2));
                 }
-                else if (D==0)
+
+                else if (discriminant==0)
                 {
-                    double x = (-b) / (2 * a);
-                    Console.WriteLine(x);
+                    double root = (-b) / (2 * a);
+                    Console.WriteLine(root);
                 }
+
                 else
                 {
                     Console.WriteLine("Корней нет");
                 }
             }
+
             else
             {
                 Console.WriteLine("Уравнение не имеет значеня");
