@@ -1,6 +1,6 @@
-﻿namespace L3T6
+﻿namespace L3T6Equation
 {
-    class L3T6
+    class Program
     {
         static void Main()
         {
