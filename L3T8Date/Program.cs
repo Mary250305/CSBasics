@@ -6,10 +6,13 @@
         {
             Console.WriteLine("Введие день");
             int day = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Введите месяц");
             int month = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Введение год");
             int year = Convert.ToInt32(Console.ReadLine());
+
             if (day < 32 && month < 13)
             {
                 if (day> 31 && month <12)
