@@ -1,6 +1,6 @@
-﻿namespace L3T3
+﻿namespace L3T3Password
 {
-    class L3T3
+    class Program
     {
         static void Main()
         {
@@ -11,17 +11,17 @@
 
             int lenghtPassword = password.Length;
 
-            if (lenghtPassword > enteringPassword.Length && password != enteringPassword)
-            {
-                Console.WriteLine("Пароль неверный, возможно строка слишком короткая");
-            }
-            else if (password == enteringPassword)
+            if (password == enteringPassword)
             {
                 Console.WriteLine("Пароль верный");
             }
-            else
+            else if (password != enteringPassword && enteringPassword.Length > lenghtPassword)
             {
                 Console.WriteLine("Пароль неверный, возможно строка слишком длинная");
+            }
+            else
+            {
+                Console.WriteLine("Пароль неверный, возможно строка слишком короткая");
             }
         }
     }
