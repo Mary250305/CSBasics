@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2T4Greeting", "L2T4Greetin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T1Eqality", "L4T1Eqality\L4T1Eqality.csproj", "{D0F60409-3AA9-4D80-8B3C-819815918593}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T2Instruction", "L4T2Instruction\L4T2Instruction.csproj", "{DED7E992-704F-4EE9-8079-C68CEE194591}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D0F60409-3AA9-4D80-8B3C-819815918593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0F60409-3AA9-4D80-8B3C-819815918593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0F60409-3AA9-4D80-8B3C-819815918593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED7E992-704F-4EE9-8079-C68CEE194591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED7E992-704F-4EE9-8079-C68CEE194591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED7E992-704F-4EE9-8079-C68CEE194591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED7E992-704F-4EE9-8079-C68CEE194591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
