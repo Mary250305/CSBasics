@@ -19,7 +19,7 @@
 
             else
             {
-                if (age % 10 == 1)
+                if (age % 10 == 1 && age != 11)
                 {
                     Console.WriteLine("Вам " + age + " год");
                 }
