@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T4While", "L4T4While\L4T4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T5ArithmeticMean", "L4T5ArithmeticMean\L4T5ArithmeticMean.csproj", "{BE553A37-ADDF-47A2-BD83-8D506B4CE004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T6ArithmeticMean", "L4T6ArithmeticMean\L4T6ArithmeticMean.csproj", "{3542796E-FE77-4498-A619-65847622AD8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{BE553A37-ADDF-47A2-BD83-8D506B4CE004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE553A37-ADDF-47A2-BD83-8D506B4CE004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE553A37-ADDF-47A2-BD83-8D506B4CE004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3542796E-FE77-4498-A619-65847622AD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3542796E-FE77-4498-A619-65847622AD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3542796E-FE77-4498-A619-65847622AD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3542796E-FE77-4498-A619-65847622AD8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
