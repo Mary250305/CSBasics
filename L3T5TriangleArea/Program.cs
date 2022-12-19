@@ -35,7 +35,6 @@
             if ((coordinatex3 - coordinatex1) / (coordinatex2 - coordinatex1) == (coordinatey3 - coordinatey1) / (coordinatey2 - coordinatey1))
             {
                 Console.WriteLine("Площадь вычислять не нужно");
-
             }            
             else
             {
