@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2T2Circle", "L2T2Circle\L2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2T3Apartments", "L2T3Apartments\L2T3Apartments.csproj", "{C5A38394-A774-4159-A381-6B2B841646AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2T4Greeting", "L2T4Greeting\L2T4Greeting.csproj", "{C97E37E2-616A-45C4-A754-BE14C458BEE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C5A38394-A774-4159-A381-6B2B841646AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A38394-A774-4159-A381-6B2B841646AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5A38394-A774-4159-A381-6B2B841646AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97E37E2-616A-45C4-A754-BE14C458BEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97E37E2-616A-45C4-A754-BE14C458BEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97E37E2-616A-45C4-A754-BE14C458BEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97E37E2-616A-45C4-A754-BE14C458BEE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
