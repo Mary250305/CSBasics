@@ -15,13 +15,17 @@
             {
                 Console.WriteLine("Пароль верный");
             }
-            else if (password != enteringPassword && enteringPassword.Length > lenghtPassword)
+            else if (enteringPassword.Length > lenghtPassword)
             {
                 Console.WriteLine("Пароль неверный, возможно строка слишком длинная");
             }
-            else
+            else if (enteringPassword.Length < lenghtPassword)
             {
                 Console.WriteLine("Пароль неверный, возможно строка слишком короткая");
+            }
+            else
+            {
+                Console.WriteLine("Пароль не верный");
             }
         }
     }
