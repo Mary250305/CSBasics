@@ -16,7 +16,7 @@
             Console.Write("Введите с: ");
             int numberC = Convert.ToInt32(Console.ReadLine());
 
-            int discriminant = (int) Math.Pow(numberB, 2) - 4 * numberA * numberC;
+            double discriminant = Math.Pow(numberB, 2) - 4 * numberA * numberC;
 
             if (numberA > 0 || numberB > 0 || numberC > 0)
             {

@@ -1,45 +1,46 @@
-﻿internal class Program
+﻿namespace L2T3Apartments
 {
-    private static void Main()
+    class Program
     {
-        /*Console.Write("Введите этаж: ");
-        int floor = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Введите подъезд: ");
-        int entrance = Convert.ToInt32(Console.ReadLine());*/
-        Console.Write("Введите квартиру: ");
-        int apartments = Convert.ToInt32(Console.ReadLine());
+        static void Main()
+        {
+            Console.Write("Введите число этажей: ");
+            int floor = Convert.ToInt32(Console.ReadLine());
 
-            if (apartments % 10 == 1)
+            Console.Write("Введите число подъездов: ");
+            int entrance = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Введте номер квартиры: ");
+            int apartment = Convert.ToInt32(Console.ReadLine());
+
+            int currentEntrance = (apartment - 1) / (floor * 4) + 1;
+            int currentFloor = (apartment - (( currentEntrance - 1) * floor * 4) - 1) / 4 + 1;
+            int apartmentPos = apartment % 4;
+
+           if (apartment > floor * entrance *4 || apartment < 0)
             {
-                double number = Math.Ceiling((double)apartments / 4);
-
-                Console.WriteLine("Подъезд 1");
-                Console.WriteLine("Этаж " + number);
-                Console.WriteLine("Квартира находится в левом нижнем углу");
+                Console.WriteLine("Такой квартиры нет");
             }
-            else if (apartments % 10 == 2)
+            else
             {
-                double number = Math.Ceiling((double)apartments / 4);
-
-                Console.WriteLine("Подъезд 1");
-                Console.WriteLine("Этаж " + number);
-                Console.WriteLine("Квартира находится в левом верхнем углу");
+                string flatPosition = "";
+                switch (apartmentPos)
+                {
+                    case 0:
+                        flatPosition = "ближняя справа";
+                        break;
+                    case 1:
+                        flatPosition = "ближняя слева";
+                        break;  
+                    case 2:
+                        flatPosition = "дальняя слева";
+                        break;
+                    case 3:
+                        flatPosition = "дальняя справа";
+                        break;
+                }
+                Console.WriteLine("Эта квартира находится в {0} подъезде на {1} этаже и эта квартира {2} ", currentEntrance, currentFloor, flatPosition);
             }
-            else if (apartments % 10 == 3) 
-            {
-                double number = Math.Ceiling((double)apartments / 4);
-
-                Console.WriteLine("Подъезд 1");
-                Console.WriteLine("Этаж " + number);
-                Console.WriteLine("Квартира находится в правом верхнем углу");
-            }
-            else if (apartments % 10 ==4)
-            {
-                double number = Math.Ceiling((double)apartments / 4);
-
-                Console.WriteLine("Подъезд 1");
-                Console.WriteLine("Этаж " + number);
-                Console.WriteLine("Квартира находится в правом нижнем углу");
-            }
+        }
     }
 }

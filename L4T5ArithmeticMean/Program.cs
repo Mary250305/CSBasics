@@ -8,15 +8,16 @@
             int sum = 3;
             int quantity = 0;
 
-            while (i < 54)
+            while (i < 5)
             {
                 sum += i;
                 quantity += 1;
                 i += 1;
+                Console.WriteLine(sum);
             }
 
             double arithmeticMean = sum / quantity;
-            Console.WriteLine(Math.Round(arithmeticMean));
+            Console.WriteLine(arithmeticMean);
         }
     }
 }
