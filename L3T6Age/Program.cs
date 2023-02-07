@@ -17,15 +17,15 @@
             }
             else
             {
-                if (age % 10 == 1 && age != 11)
+                if (age % 10 == 1 && age != 11 && age != 111)
                 {
                     Console.WriteLine("Вам " + age + " год");
                 }
-                else if (age > 10 && age < 20)
+                else if (age > 10 && age < 20 || age == 111 || age == 112)
                 {
                     Console.WriteLine("Вам " + age + " лет");
                 }
-                else if ((age % 10 == 2) || (age % 10 == 3) || (age % 10 == 4))
+                else if ((age % 10 == 2) || (age % 10 == 3) || (age % 10 == 4) && age != 112)
                 {
                     Console.WriteLine("Вам " + age + " года");
                 }

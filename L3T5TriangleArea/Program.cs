@@ -35,7 +35,10 @@
             double segmentBC = Math.Sqrt(Math.Pow(pointCoordinateX2, 2) + Math.Pow(pointCoordinateY2, 2));
             double segmentCA = Math.Sqrt(Math.Pow(pointCoordinateX3, 2) + Math.Pow(pointCoordinateY3, 2));
 
-            if ((coordinateX3 - coordinateX1) / (coordinateX2 - coordinateX1) == (coordinateY3 - coordinateY1) / (coordinateY2 - coordinateY1))
+            double xPartCheckBeOnLine = (coordinateX3 - coordinateX1) / (coordinateX2 - coordinateX1);
+            double yPartCheckBeOnLine = (coordinateY3 - coordinateY1) / (coordinateY2 - coordinateY1);
+
+            if (xPartCheckBeOnLine == yPartCheckBeOnLine)
             {
                 Console.WriteLine("Площадь вычислять не нужно");
             }            
