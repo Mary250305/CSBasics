@@ -18,7 +18,7 @@
 
             double discriminant = Math.Pow(numberB, 2) - 4 * numberA * numberC;
 
-            if (numberA > 0 || numberB > 0 || numberC > 0)
+            if (numberA > 0 || numberB > 0 || numberC > 0 || numberA < 0 || numberB < 0 || numberC < 0)
             {
                 if (discriminant>0)
                 {
