@@ -4,20 +4,40 @@
     {
         static void Main()
         {
-            int i = 3;
-            int sum = 3;
-            int quantity = 0;
+            Console.Write("Введите первое число диапазона: ");
+            int initialNumber = Convert.ToInt32(Console.ReadLine());
 
-            while (i < 5)
+            Console.Write("Введите конечное число диапазона: ");
+            int finiteNumber = Convert.ToInt32(Console.ReadLine());
+
+            int quantity = 0;
+            int sum = 0;
+            int i = initialNumber;
+
+            while (i <= finiteNumber)
             {
                 sum += i;
                 quantity += 1;
                 i += 1;
-                Console.WriteLine(sum);
+            }
+            double arithmeticMean = (double)sum / quantity;
+            Console.WriteLine("Среднее арефмитическое = " + arithmeticMean);
+
+            i = initialNumber;
+            int sumEvnNumber = 0;
+            int quantityEvenNumber = 0;
+            while (i <= finiteNumber)
+            {
+                if (i % 2 == 0)
+                {
+                    sumEvnNumber += i;
+                    quantityEvenNumber += 1;
+                }
+                i += 1;
             }
 
-            double arithmeticMean = sum / quantity;
-            Console.WriteLine(arithmeticMean);
+            double arithmeticMeanEvenNumber = (double) sumEvnNumber / quantityEvenNumber;
+            Console.WriteLine("Среднее арефмитическое четных чисел = " + arithmeticMeanEvenNumber);
         }
     }
 }
