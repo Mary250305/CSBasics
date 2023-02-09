@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T6ArithmeticMean", "L4T6A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T7Fibonacci", "L4T7Fibonacci\L4T7Fibonacci.csproj", "{DD1C192C-823A-44ED-876C-235833B02227}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T8DoWhile", "L4T8DoWhile\L4T8DoWhile.csproj", "{C48DB116-BC2F-47A5-863B-261FBF7AE257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{DD1C192C-823A-44ED-876C-235833B02227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD1C192C-823A-44ED-876C-235833B02227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD1C192C-823A-44ED-876C-235833B02227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48DB116-BC2F-47A5-863B-261FBF7AE257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48DB116-BC2F-47A5-863B-261FBF7AE257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48DB116-BC2F-47A5-863B-261FBF7AE257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48DB116-BC2F-47A5-863B-261FBF7AE257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
