@@ -1,4 +1,4 @@
-﻿namespace L4T4While
+﻿namespace L4T4Sum
 {
     class Program
     {

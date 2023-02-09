@@ -37,13 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T2Instruction", "L4T2Inst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T3Switch", "L4T3Switch\L4T3Switch.csproj", "{99ECCBB5-D8F3-46F2-B2C7-2004AC0CE011}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T4While", "L4T4While\L4T4While.csproj", "{9077F56A-0863-4A9F-985E-53E95166A1A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T4Sum", "L4T4While\L4T4Sum.csproj", "{9077F56A-0863-4A9F-985E-53E95166A1A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T5ArithmeticMean", "L4T5ArithmeticMean\L4T5ArithmeticMean.csproj", "{BE553A37-ADDF-47A2-BD83-8D506B4CE004}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T6ArithmeticMean", "L4T6ArithmeticMean\L4T6ArithmeticMean.csproj", "{3542796E-FE77-4498-A619-65847622AD8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T7Fibonacci", "L4T7Fibonacci\L4T7Fibonacci.csproj", "{DD1C192C-823A-44ED-876C-235833B02227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T7Fibonacci", "L4T7Fibonacci\L4T7Fibonacci.csproj", "{DD1C192C-823A-44ED-876C-235833B02227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -19,6 +19,7 @@
                 sum += i;
                 quantity += 1;
                 i += 1;
+
             }
             double arithmeticMean = (double)sum / quantity;
             Console.WriteLine("Среднее арефмитическое = " + arithmeticMean);
