@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T11DigitsOfNmber", "L4T11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T1numbersFromAndTo", "L5T1numbersFromAndTo\L5T1numbersFromAndTo.csproj", "{BE4AEC6E-D5A8-41A4-AB10-F150A9DA823C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T2Multiples", "L5T2Multiples\L5T2Multiples.csproj", "{8C4FE3FC-EB83-4727-B1FE-A8B89B6AB257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{BE4AEC6E-D5A8-41A4-AB10-F150A9DA823C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE4AEC6E-D5A8-41A4-AB10-F150A9DA823C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4AEC6E-D5A8-41A4-AB10-F150A9DA823C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4FE3FC-EB83-4727-B1FE-A8B89B6AB257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4FE3FC-EB83-4727-B1FE-A8B89B6AB257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4FE3FC-EB83-4727-B1FE-A8B89B6AB257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4FE3FC-EB83-4727-B1FE-A8B89B6AB257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
