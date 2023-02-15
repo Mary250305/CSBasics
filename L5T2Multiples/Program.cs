@@ -8,7 +8,10 @@ namespace L5T2Multiples
         {
             for ( int i = 100; i >= 1; i-- )
             {
-                Console.WriteLine( i );
+                if ( i % 4 ==0)
+                {
+                    Console.WriteLine( i );
+                }
             }
 
             Console.WriteLine();
