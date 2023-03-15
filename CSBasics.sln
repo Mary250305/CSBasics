@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T3More30", "L5T3More30\L5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T4Continue", "L5T4Continue\L5T4Continue.csproj", "{E48E2391-42B6-44A1-8680-52BDE38303E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6T1", "L6T1\L6T1.csproj", "{F3BC15E1-B6DB-461B-B86A-32655AF5EFBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T1", "L6T1\L6T1.csproj", "{F3BC15E1-B6DB-461B-B86A-32655AF5EFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T5Break", "L5T5Break\L5T5Break.csproj", "{FDF97E4F-53D2-420F-8E93-6CC1F8CC98F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{F3BC15E1-B6DB-461B-B86A-32655AF5EFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3BC15E1-B6DB-461B-B86A-32655AF5EFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3BC15E1-B6DB-461B-B86A-32655AF5EFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF97E4F-53D2-420F-8E93-6CC1F8CC98F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF97E4F-53D2-420F-8E93-6CC1F8CC98F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF97E4F-53D2-420F-8E93-6CC1F8CC98F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF97E4F-53D2-420F-8E93-6CC1F8CC98F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
