@@ -65,9 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T4Continue", "L5T4Continu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T1", "L6T1\L6T1.csproj", "{F3BC15E1-B6DB-461B-B86A-32655AF5EFBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T5Break", "L5T5Break\L5T5Break.csproj", "{FDF97E4F-53D2-420F-8E93-6CC1F8CC98F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T5Break", "L5T5Break\L5T5Break.csproj", "{FDF97E4F-53D2-420F-8E93-6CC1F8CC98F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T6PrimeNumbers", "L5T6PrimeNumbers\L5T6PrimeNumbers.csproj", "{3E1644DA-4690-4587-91B7-E4E2A5B22453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T6PrimeNumbers", "L5T6PrimeNumbers\L5T6PrimeNumbers.csproj", "{3E1644DA-4690-4587-91B7-E4E2A5B22453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T7Evklid", "L5T7Evklid\L5T7Evklid.csproj", "{8CB0CAD5-7672-46EE-9E38-3D2212D52FCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{3E1644DA-4690-4587-91B7-E4E2A5B22453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E1644DA-4690-4587-91B7-E4E2A5B22453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E1644DA-4690-4587-91B7-E4E2A5B22453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB0CAD5-7672-46EE-9E38-3D2212D52FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB0CAD5-7672-46EE-9E38-3D2212D52FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB0CAD5-7672-46EE-9E38-3D2212D52FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB0CAD5-7672-46EE-9E38-3D2212D52FCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

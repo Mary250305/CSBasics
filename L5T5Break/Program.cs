@@ -17,7 +17,6 @@
                     Console.WriteLine("Верно");
                     break;
                 }
-                Console.Write("Неверно, попробуйте снова");
             }
         }
     }
