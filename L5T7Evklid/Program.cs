@@ -4,23 +4,19 @@
     {
         static void Main()
         {
-            Console.WriteLine("");
+            Console.Write("Введите первое число: ");
             int number1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("");
+            Console.Write("Введите второе число: ");
             int number2 = Convert.ToInt32(Console.ReadLine());
 
-            while (number1 != number2)
+            while (number2 != 0)
             {
-                if (number1%number2== 0)
-                {
-                    Console.WriteLine(number2);
-                }
-                else                                         //нод (б, а%б)
-                {
-
-                }
+                int result = number2;
+                number2 = number1%number2;
+                number1 = result;
             }
+            Console.WriteLine("НОД = {0}", number1);
         }
     }
 }
