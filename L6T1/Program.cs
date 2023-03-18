@@ -31,12 +31,26 @@
 
         public static double GetMaximum(int x, int y)
         {
-            return Math.Max(x, y);
+            if (x > y)
+            {
+                return x;
+            }
+            else
+            {
+                return y;
+            }
         }
 
         private static double GetMinimum( int x, int y)
         {
-            return Math.Min(x, y);
+            if (x < y)
+            {
+                return x;
+            }
+            else
+            {
+                return y;
+            }
         }
     }
 }
