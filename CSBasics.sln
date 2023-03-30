@@ -71,9 +71,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T6PrimeNumbers", "L5T6Pri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T7Evklid", "L5T7Evklid\L5T7Evklid.csproj", "{8CB0CAD5-7672-46EE-9E38-3D2212D52FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T8Table", "L5T8Table\L5T8Table.csproj", "{B368E8BC-C0FE-454F-8BE6-053710AF2129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T8Table", "L5T8Table\L5T8Table.csproj", "{B368E8BC-C0FE-454F-8BE6-053710AF2129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6T2PrintAndRead", "L6T2PrintAndRead\L6T2PrintAndRead.csproj", "{17F2F5C1-4A51-4D0B-B3C6-FF28CD1599D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T2PrintAndRead", "L6T2PrintAndRead\L6T2PrintAndRead.csproj", "{17F2F5C1-4A51-4D0B-B3C6-FF28CD1599D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6T3Degrees", "L6T3Degrees\L6T3Degrees.csproj", "{658574FE-5242-46DB-B813-C10B40368B9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{17F2F5C1-4A51-4D0B-B3C6-FF28CD1599D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F2F5C1-4A51-4D0B-B3C6-FF28CD1599D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F2F5C1-4A51-4D0B-B3C6-FF28CD1599D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658574FE-5242-46DB-B813-C10B40368B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658574FE-5242-46DB-B813-C10B40368B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658574FE-5242-46DB-B813-C10B40368B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658574FE-5242-46DB-B813-C10B40368B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

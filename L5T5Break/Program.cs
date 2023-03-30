@@ -8,7 +8,7 @@
             {
                 Console.WriteLine();
                 Console.Write("Введите слово: ");
-                string line = Convert.ToString(Console.ReadLine());
+                string line = Console.ReadLine();
 
                 string inventedLine = "рука";
 
