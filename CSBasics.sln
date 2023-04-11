@@ -75,7 +75,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T8Table", "L5T8Table\L5T8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T2PrintAndRead", "L6T2PrintAndRead\L6T2PrintAndRead.csproj", "{17F2F5C1-4A51-4D0B-B3C6-FF28CD1599D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6T3Degrees", "L6T3Degrees\L6T3Degrees.csproj", "{658574FE-5242-46DB-B813-C10B40368B9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T3Degrees", "L6T3Degrees\L6T3Degrees.csproj", "{658574FE-5242-46DB-B813-C10B40368B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T9NumberPerLine2", "L4T9NumberPerLine2\L4T9NumberPerLine2.csproj", "{A434B17E-4B23-449B-93A4-E2293CF63382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,10 @@ Global
 		{658574FE-5242-46DB-B813-C10B40368B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{658574FE-5242-46DB-B813-C10B40368B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{658574FE-5242-46DB-B813-C10B40368B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A434B17E-4B23-449B-93A4-E2293CF63382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A434B17E-4B23-449B-93A4-E2293CF63382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A434B17E-4B23-449B-93A4-E2293CF63382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A434B17E-4B23-449B-93A4-E2293CF63382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
