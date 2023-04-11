@@ -21,10 +21,15 @@
                     day = 1;
                     Console.WriteLine(day + "." + month + "." + year);
                 }
-                else if (day == 28 && month == 2)
+                else if (day == 28 && month == 2 && (year % 4 != 0 || year % 400 != 0))
                 {
                     month = month + 1;
                     day = 1;
+                    Console.WriteLine(day + "." + month + "." + year);
+                }
+                else if (day == 28 && month == 2 && (year % 4 == 0 || year % 400 == 0))
+                {
+                    day = day + 1;
                     Console.WriteLine(day + "." + month + "." + year);
                 }
                 else if (day == 31 && (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10))
