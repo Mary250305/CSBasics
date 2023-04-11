@@ -8,40 +8,28 @@
             Console.WriteLine();
 
             Console.Write("Введите а: ");
-            int numberA = Convert.ToInt32(Console.ReadLine());
+            double numberA = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Введите b: ");
-            int numberB = Convert.ToInt32(Console.ReadLine());
+            double numberB = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Введите с: ");
-            int numberC = Convert.ToInt32(Console.ReadLine());
+            double numberC = Convert.ToInt32(Console.ReadLine());
+            double decision1 = 0;
+            double decision2 = 0;
 
             double discriminant = Math.Pow(numberB, 2) - 4 * numberA * numberC;
 
-            if (numberA > 0 || numberB > 0 || numberC > 0 || numberA < 0 || numberB < 0 || numberC < 0)
+            if (discriminant > 0 || discriminant == 0)
             {
-                if (discriminant>0)
-                {
-                    double root1 = (-numberB + Math.Sqrt(discriminant)) / (2 * numberA);
-                    double root2 = (-numberB - Math.Sqrt(discriminant)) / (2 * numberA);
-                    Console.WriteLine(Math.Round(root1));
-                    Console.WriteLine(Math.Round(root2));
-                }
-                else if (discriminant==0)
-                {
-                    double root = (-numberB) / (2 * numberA);
-                    Console.WriteLine(root);
-                }
-                else
-                {
-                    Console.WriteLine("Корней нет");
-                }
+                decision1 = (-numberB + Math.Sqrt(discriminant)) / (2 * numberA);
+                decision2 = (-numberB - Math.Sqrt(discriminant)) / (2 * numberA);
+                Console.WriteLine("x1= {0}\n x2= {1}", decision1, decision2);
             }
             else
             {
-                Console.WriteLine("Уравнение не имеет значеня");
+                Console.WriteLine("Действительных корней нет");
             }
-            
         }
     }
 }
