@@ -4,9 +4,9 @@
     {
         static void Main()
         {
-            for (int i = 1; i <=100; i++) 
+            for (int i = 1; i <= 100; i++)
             {
-                if ( i > 29)
+                if (i >= 30)
                 {
                     break;
                 }
