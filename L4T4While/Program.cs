@@ -11,49 +11,48 @@
                 sum += i;
                 i += 1;
             }
-            Console.WriteLine(sum);
+            Console.WriteLine("Сумма чисел от 0 до 9 = " + sum);
 
             Console.WriteLine();
 
-            int j = 3;
+            i = 3;
             int sum1 = 3;
-            while (j < 22)
+            while (i < 22)
             {
-                sum1 += j;
-                j += 1;
+                sum1 += i;
+                i += 1;
             }
-            Console.WriteLine(sum1);
+            Console.WriteLine("Сумма чисел от 3 до 21 включительно =  " + sum1);
 
             Console.WriteLine();
 
-            int k = 3;
+            i = 3;
             int sum2 = 3;
-            while (k < 22)
+            while (i < 22)
             {
-                if (k % 2 == 0)
+                if (i % 2 == 0)
                 {
-                    sum2 += k;
+                    sum2 += i;
                 }
-                k += 1;
+                i += 1;
             }
-            Console.WriteLine(sum2);
+            Console.WriteLine("Сумма четных чисел от 3 до 21 включительно = " + sum2);
 
             Console.WriteLine();
 
-            int m = 3;
+            i = 3;
             int sum3 = 3;
             int evenNumbers = 0;
-            while (m < 22)
+            while (i < 22)
             {
-                if (m % 2 == 0)
+                if (i % 2 == 0)
                 {
-                    sum3 += m;
+                    sum3 += i;
                     evenNumbers += 1;
                 }
-                m += 1;
+                i += 1;
             }
-            Console.WriteLine(sum3);
-            Console.WriteLine("Кол-во четных чисел = " + evenNumbers);
+            Console.WriteLine("Сумма чисел от 3 до 21 включительно = {0} , кол-во четных чисел = {1}",sum3,evenNumbers);
         }
     }
 }
