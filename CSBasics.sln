@@ -77,6 +77,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T10digitsNumbers", "L4T10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T9Contribution", "L5T9Contribution\L5T9Contribution.csproj", "{EE303170-3276-4617-85CB-F6A38A832DAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6T4Overload", "L6T4Overload\L6T4Overload.csproj", "{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{EE303170-3276-4617-85CB-F6A38A832DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE303170-3276-4617-85CB-F6A38A832DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE303170-3276-4617-85CB-F6A38A832DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
