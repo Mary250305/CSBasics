@@ -4,49 +4,31 @@
     {
         static void Main()
         {
-            Console.WriteLine("Введите координаты точек для нахождения по ним площади треугольника");
-            Console.WriteLine();
+            Console.WriteLine("Введите координаты точки A:");
+            double coordinateX1 = Convert.ToDouble(Console.ReadLine());
+            double coordinateY1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введите координату х1: ");
-            int coordinateX1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Введите координату у1: ");
-            int coordinateY1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите координаты точки B:");
+            double coordinateX2 = Convert.ToDouble(Console.ReadLine());
+            double coordinateY2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введите координату х2: ");
-            int coordinateX2 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Введите координату у2: ");
-            int coordinateY2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите координаты точки C:");
+            double coordinateX3 = Convert.ToDouble(Console.ReadLine());
+            double coordinateY3 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введите координату х3: ");
-            int coordinateX3 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Введите координату у3: ");
-            int coordinateY3 = Convert.ToInt32(Console.ReadLine());
+            double sectionA = Math.Sqrt(Math.Pow(coordinateX2 - coordinateX1, 2) + Math.Pow(coordinateY2 - coordinateY1, 2));
+            double sectionB = Math.Sqrt(Math.Pow(coordinateX3 - coordinateX2, 2) + Math.Pow(coordinateY3 - coordinateY2, 2));
+            double sectionC = Math.Sqrt(Math.Pow(coordinateX1 - coordinateX3, 2) + Math.Pow(coordinateY1 - coordinateY3, 2));
 
-            int pointCoordinateX1 = coordinateX2 - coordinateX1;
-            int pointCoordinateY1 = coordinateY2 - coordinateY1;
-
-            int pointCoordinateX2 = coordinateX3 - coordinateX2;
-            int pointCoordinateY2 = coordinateY3 - coordinateY2;
-
-            int pointCoordinateX3 = coordinateX1 - coordinateX3;
-            int pointCoordinateY3 = coordinateY1 - coordinateY3;
-
-            double segmentAB = Math.Sqrt(Math.Pow(pointCoordinateX1, 2) + Math.Pow(pointCoordinateY1, 2));
-            double segmentBC = Math.Sqrt(Math.Pow(pointCoordinateX2, 2) + Math.Pow(pointCoordinateY2, 2));
-            double segmentCA = Math.Sqrt(Math.Pow(pointCoordinateX3, 2) + Math.Pow(pointCoordinateY3, 2));
-
-            double xPartCheckBeOnLine = (coordinateX3 - coordinateX1) / (coordinateX2 - coordinateX1);
-            double yPartCheckBeOnLine = (coordinateY3 - coordinateY1) / (coordinateY2 - coordinateY1);
-
-            if (xPartCheckBeOnLine == yPartCheckBeOnLine)
+            if (sectionA + sectionB > sectionC && sectionA + sectionC > sectionB && sectionB + sectionC > sectionA)
             {
-                Console.WriteLine("Площадь вычислять не нужно");
-            }            
+                double halfMeter = (sectionA + sectionB + sectionC) / 2;
+                double square = Math.Sqrt(halfMeter * (halfMeter - sectionA) * (halfMeter - sectionB) * (halfMeter - sectionC));
+                Console.WriteLine("Площадь треугольника: " + square);
+            }
             else
             {
-                double halfMeter = (segmentAB + segmentBC + segmentCA) / 2;
-                double square = Math.Sqrt(halfMeter * (halfMeter - segmentAB) * (halfMeter - segmentBC) * (halfMeter - segmentCA));
-                Console.WriteLine("Площадь треугольника = " + Math.Round(square));
+                Console.WriteLine("Точки лежат на одной прямой, площадь вычислять не нужно.");
             }
         }
     }
