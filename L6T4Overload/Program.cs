@@ -4,39 +4,46 @@
     {
         public static void Main()
         {
-            Console.WriteLine(GetTypeSize(2));
-            Console.WriteLine(GetTypeSize(5));
-            Console.WriteLine(GetTypeSize(18));
-            Console.WriteLine(GetTypeSize(1234567890));
-            Console.WriteLine(GetTypeSize(3.14));
-            Console.WriteLine(GetTypeSize(6.2837));
+            byte b = 2;
+            short s = 5;
+            int i = 18;
+            long l = 1234567890;
+            float f = 3.14f;
+            double d = 6.283185307;
+
+            Console.WriteLine(GetTypeSize(b));
+            Console.WriteLine(GetTypeSize(s));
+            Console.WriteLine(GetTypeSize(i));
+            Console.WriteLine(GetTypeSize(l));
+            Console.WriteLine(GetTypeSize(f));
+            Console.WriteLine(GetTypeSize(d));
         }
-        static int GetTypeSize(byte value)
+        static int GetTypeSize(byte b)
         {
             return sizeof(byte);
         }
 
-        static int GetTypeSize(short value)
+        static int GetTypeSize(short s)
         {
             return sizeof(short);
         }
 
-        static int GetTypeSize(int value)
+        static int GetTypeSize(int i)
         {
             return sizeof(int);
         }
 
-        static int GetTypeSize(long value)
+        static int GetTypeSize(long l)
         {
             return sizeof(long);
         }
 
-        static int GetTypeSize(float value)
+        static int GetTypeSize(float f)
         {
             return sizeof(float);
         }
 
-        static int GetTypeSize(double value)
+        static int GetTypeSize(double d)
         {
             return sizeof(double);
         }
