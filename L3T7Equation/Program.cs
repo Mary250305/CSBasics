@@ -15,20 +15,39 @@
 
             Console.Write("Введите с: ");
             double numberC = Convert.ToInt32(Console.ReadLine());
-            double decision1 = 0;
-            double decision2 = 0;
 
             double discriminant = Math.Pow(numberB, 2) - 4 * numberA * numberC;
 
-            if (discriminant > 0 || discriminant == 0)
+            if (numberA == 0)
             {
-                decision1 = (-numberB + Math.Sqrt(discriminant)) / (2 * numberA);
-                decision2 = (-numberB - Math.Sqrt(discriminant)) / (2 * numberA);
-                Console.WriteLine("x1= {0}\n x2= {1}", decision1, decision2);
+                if (numberB == 0 && numberC == 0)
+                {
+                    Console.WriteLine("x может быть любым числом");
+                }
+                else if (numberB == 0)
+                {
+                    Console.WriteLine("Нет корней");
+                }
+                else
+                {
+                    double x = -numberC / numberB;
+                    Console.WriteLine("x = " + x);
+                }
+            }
+            else if (discriminant > 0)
+            {
+                double rootEquation1 = (-numberB + Math.Sqrt(discriminant)) / (2 * numberA);
+                double rootEquation2 = (-numberB - Math.Sqrt(discriminant)) / (2 * numberA);
+                Console.WriteLine("x1 = " + rootEquation1 + ", x2 = " + rootEquation2);
+            }
+            else if (discriminant == 0)
+            {
+                double rootEquation = -numberB / (2 * numberA);
+                Console.WriteLine("x = " + rootEquation);
             }
             else
             {
-                Console.WriteLine("Действительных корней нет");
+                Console.WriteLine("Нет корней");
             }
         }
     }
