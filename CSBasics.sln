@@ -71,9 +71,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T2PrintAndRead", "L6T2Pri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T3Degrees", "L6T3Degrees\L6T3Degrees.csproj", "{658574FE-5242-46DB-B813-C10B40368B9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T9NumberPerLine2", "L4T9NumberPerLine2\L4T9NumberPerLine2.csproj", "{A434B17E-4B23-449B-93A4-E2293CF63382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T9NumberPerLine2", "L4T9NumberPerLine2\L4T9NumberPerLine2.csproj", "{A434B17E-4B23-449B-93A4-E2293CF63382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4T10digitsNumbers", "L4T10digitsNumbers\L4T10digitsNumbers.csproj", "{3531B893-D868-40EF-990A-5212DADB7405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T10digitsNumbers", "L4T10digitsNumbers\L4T10digitsNumbers.csproj", "{3531B893-D868-40EF-990A-5212DADB7405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T9Contribution", "L5T9Contribution\L5T9Contribution.csproj", "{EE303170-3276-4617-85CB-F6A38A832DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{3531B893-D868-40EF-990A-5212DADB7405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3531B893-D868-40EF-990A-5212DADB7405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3531B893-D868-40EF-990A-5212DADB7405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE303170-3276-4617-85CB-F6A38A832DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE303170-3276-4617-85CB-F6A38A832DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE303170-3276-4617-85CB-F6A38A832DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE303170-3276-4617-85CB-F6A38A832DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
