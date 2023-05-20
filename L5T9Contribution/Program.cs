@@ -11,11 +11,11 @@
             double interestRate = Convert.ToDouble(Console.ReadLine()) / 100;
 
             Console.WriteLine("Введите срок вклада, мес.: ");
-            int months = Convert.ToInt32(Console.ReadLine());
+            int depositTerm = Convert.ToInt32(Console.ReadLine());
 
             double profit = 0;
 
-            for (int i = 1; i <= months; i++)
+            for (int i = 1; i <= depositTerm; i++)
             {
                 double monthInterestRate = interestRate / 12;
                 double monthInterest = deposit * monthInterestRate;
@@ -23,8 +23,8 @@
                 profit += monthInterest;
             }
 
-            Console.WriteLine("Сумма вклада с капитализацией: " + deposit);
-            Console.WriteLine("Прибыль на вклад: " + profit);
+            Console.WriteLine("Сумма вклада с капитализацией: " + Math.Round(deposit,1));
+            Console.WriteLine("Прибыль на вклад: " + Math.Round(profit,1));
         }
     }
 }
