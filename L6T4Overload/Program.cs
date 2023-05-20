@@ -18,34 +18,36 @@
             Console.WriteLine(GetTypeSize(f));
             Console.WriteLine(GetTypeSize(d));
         }
-        static int GetTypeSize(byte b)
-        {
-            return sizeof(byte);
-        }
 
-        static int GetTypeSize(short s)
+        public static int GetTypeSize(byte x)
         {
-            return sizeof(short);
+            int byteAmount = 1;
+            return byteAmount;
         }
-
-        static int GetTypeSize(int i)
+        public static int GetTypeSize(short x)
         {
-            return sizeof(int);
+            int byteAmount = 2;
+            return byteAmount;
         }
-
-        static int GetTypeSize(long l)
+        public static int GetTypeSize(int x)
         {
-            return sizeof(long);
+            int byteAmount = 4;
+            return byteAmount;
         }
-
-        static int GetTypeSize(float f)
+        public static int GetTypeSize(long x)
         {
-            return sizeof(float);
+            int byteAmount = 4;
+            return byteAmount;
         }
-
-        static int GetTypeSize(double d)
+        public static int GetTypeSize(float x)
         {
-            return sizeof(double);
+            int byteAmount = 4;
+            return byteAmount;
+        }
+        public static int GetTypeSize(double x)
+        {
+            int byteAmount = 8;
+            return byteAmount;
         }
     }
 }
