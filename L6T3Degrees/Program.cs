@@ -5,10 +5,8 @@
         public static void Main()
         {
             Console.Write("Введите температуру в градусах Цельсия для перевода в градусы Кельвина: ");
-            Console.WriteLine("Температура по шкале Кельвина: " + ConversionKelvin(Convert.ToDouble(Console.ReadLine())));
-
-            Console.Write("Введите температуру в градусах Цельсия для перевода в градусы Фаренгейта: ");
-            Console.WriteLine("Температура по шкале Фаренгейта: " + ConversionFahrenheit(Convert.ToDouble(Console.ReadLine())));
+            double degrees = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Температура по шкале Кельвина: " + ConversionKelvin(degrees) + Environment.NewLine + "Температура по шкале Фаренгейта: " + ConversionFahrenheit(degrees));
         }
 
         public static double ConversionKelvin(double x)
