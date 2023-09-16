@@ -4,6 +4,9 @@
     {
         static void Main()
         {
+            Console.WriteLine("Находим площадь треугольника по координатам");
+            Console.WriteLine();
+
             Console.WriteLine("Введите координаты точки A:");
             double coordinateX1 = Convert.ToDouble(Console.ReadLine());
             double coordinateY1 = Convert.ToDouble(Console.ReadLine());
@@ -20,15 +23,15 @@
             double sectionB = Math.Sqrt(Math.Pow(coordinateX3 - coordinateX2, 2) + Math.Pow(coordinateY3 - coordinateY2, 2));
             double sectionC = Math.Sqrt(Math.Pow(coordinateX1 - coordinateX3, 2) + Math.Pow(coordinateY1 - coordinateY3, 2));
 
-            if (sectionA + sectionB > sectionC && sectionA + sectionC > sectionB && sectionB + sectionC > sectionA)
+            if ((coordinateX3 - coordinateX1) / (coordinateX2 - coordinateX1) == (coordinateY3 - coordinateY1) / (coordinateY2 - coordinateY1))
             {
-                double halfMeter = (sectionA + sectionB + sectionC) / 2;
-                double square = Math.Sqrt(halfMeter * (halfMeter - sectionA) * (halfMeter - sectionB) * (halfMeter - sectionC));
-                Console.WriteLine("Площадь треугольника: " + square);
+                Console.WriteLine("Точки лежат на одной прямой, площадь вычислять не нужно.");
             }
             else
             {
-                Console.WriteLine("Точки лежат на одной прямой, площадь вычислять не нужно.");
+                double halfMeter = (sectionA + sectionB + sectionC) / 2;
+                double square = Math.Sqrt(halfMeter * (halfMeter - sectionA) * (halfMeter - sectionB) * (halfMeter - sectionC));
+                Console.WriteLine("Площадь треугольника: " + Math.Round(square));
             }
         }
     }
