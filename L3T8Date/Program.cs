@@ -32,6 +32,12 @@
                     day = day + 1;
                     Console.WriteLine(day + "." + month + "." + year);
                 }
+                else if (day == 29 && month == 2)
+                {
+                    day = 1;
+                    month = month + 1;
+                    Console.WriteLine(day + "." + month + "." + year);
+                }
                 else if (day == 31 && (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10))
                 {
                     month = month + 1;
