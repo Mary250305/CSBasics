@@ -62,7 +62,7 @@
                 year = year + 1;
                 Console.WriteLine(day + "." + month + "." + year);
             }
-            else if (day > 32 || month > 12)
+            else if (day > 32 || month > 12 || (day> 29 && month == 2))
             {
                 Console.WriteLine("Дата не корректна");
             }

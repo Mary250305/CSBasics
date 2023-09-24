@@ -23,7 +23,9 @@
             double sectionB = Math.Sqrt(Math.Pow(coordinateX3 - coordinateX2, 2) + Math.Pow(coordinateY3 - coordinateY2, 2));
             double sectionC = Math.Sqrt(Math.Pow(coordinateX1 - coordinateX3, 2) + Math.Pow(coordinateY1 - coordinateY3, 2));
 
-            if ((coordinateX3 - coordinateX1) / (coordinateX2 - coordinateX1) == (coordinateY3 - coordinateY1) / (coordinateY2 - coordinateY1))
+            double epsilon = 1.0e-10;
+
+            if (Math.Abs(((coordinateX3 - coordinateX1) / (coordinateX2 - coordinateX1)) - ((coordinateY3 - coordinateY1) / (coordinateY2 - coordinateY1))) <= epsilon)
             {
                 Console.WriteLine("Точки лежат на одной прямой, площадь вычислять не нужно.");
             }

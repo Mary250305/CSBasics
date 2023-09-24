@@ -18,6 +18,8 @@
 
             double discriminant = Math.Pow(numberB, 2) - 4 * numberA * numberC;
 
+            double epsilon = 1.0e-10;
+
             if (numberA == 0)
             {
                 if (numberB == 0 && numberC == 0)
