@@ -75,9 +75,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T9NumberPerLine2", "L4T9N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4T10digitsNumbers", "L4T10digitsNumbers\L4T10digitsNumbers.csproj", "{3531B893-D868-40EF-990A-5212DADB7405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T9Contribution", "L5T9Contribution\L5T9Contribution.csproj", "{EE303170-3276-4617-85CB-F6A38A832DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5T9Contribution", "L5T9Contribution\L5T9Contribution.csproj", "{EE303170-3276-4617-85CB-F6A38A832DAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6T4Overload", "L6T4Overload\L6T4Overload.csproj", "{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L6T4Overload", "L6T4Overload\L6T4Overload.csproj", "{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6T5Discount", "L6T5Discount\L6T5Discount.csproj", "{1D7E7927-1AC0-448C-BE27-42C59AED4E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{728A0CBE-D78C-4F6A-B46B-39351A78F0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7E7927-1AC0-448C-BE27-42C59AED4E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7E7927-1AC0-448C-BE27-42C59AED4E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7E7927-1AC0-448C-BE27-42C59AED4E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7E7927-1AC0-448C-BE27-42C59AED4E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
